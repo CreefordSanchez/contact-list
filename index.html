@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
+    <link rel="stylesheet" href="./source/css/style.css" media="all">
+    <script src="./source/js/script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>My Contacts</h1>
+        <div class="input-box">
+          <form >
+            <input type="text" placeholder="Contact info (name, city, email)">
+            <p class="print-error"></p>
+          </form>
+          <button class="add-btn" onclick="add()">Add</button>
+        </div>
+
+        <div class="output-box">
+          <div class="grid">
+
+          </div>
+        </div>
+      </div>
+      <div class="count-output">
+        <p>Save Contact: <span class="count"></span></p>
+      </div>
+    </main>
+  </body>
+</html>
