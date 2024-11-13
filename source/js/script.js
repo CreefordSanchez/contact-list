@@ -56,7 +56,6 @@ class Contact {
   }
 }
 
-
 const input = selector('input');
 const printError = selector('.print-error');
 let checkValid = false;
